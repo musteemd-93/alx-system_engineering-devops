@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -links +2
+DIRS=$(find . -type d) 
