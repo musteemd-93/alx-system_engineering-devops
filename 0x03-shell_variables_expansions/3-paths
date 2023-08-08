@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(find . -type d) 
+find /path/to/foo -maxdepth 1 -type d -print| wc -l 
